@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+.homeRegDiv{
+	margin: 0 auto;
+	height:600px;
+	background: url("../images/homeposter.jpg") center;
+	z-index: 1;
+}
+.homeRegTextDiv{
+	height:400px; 
+	width: 300px;
+	background-color: rgba(0,0,0,.3);
+	/*当上一行的透明度不起作用的时候执行。这句话的意思本来是用来做渐变的。但是这个地方不需要渐变。所以两个颜色都设置成了相同的颜色。*/
+	/*这个颜色“#19ffffff”是由两部分组成的。第一部是#号后面的19 。是rgba透明度0.1的IEfilter值。从0.1到0.9每个数字对应一个IEfilter值。*/
+	/*第二部分是19后面的六位 。这个是六进制的颜色值。要跟rgb函数中的取值相同*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+	margin: 50px 0 0 30px;
+	float: left;
+	position: relative;
+	z-index: 2;
+	color: #dcdcdc;
+}
+h3{
+	text-align: center;
+}
