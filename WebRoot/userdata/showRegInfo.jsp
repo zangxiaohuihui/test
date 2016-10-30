@@ -47,7 +47,7 @@
 </script>
 </head>
 <body>
-测试代码更新
+测试代码更新2
 	<div style="width: 100%;height: 80px;">logo</div>
 	<div style="width: 100%;height: 60px;background-color: olive;">功能</div>
 	<!-- 用户信息主体div -->
