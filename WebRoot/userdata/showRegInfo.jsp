@@ -210,7 +210,6 @@
 						</ul>
 						<div class="buttonDiv">
 							<input type="submit" name="ok" value="保存并提交" class="okBtnDiv">
-						
 							<input type="button" name="next" value="保存并提交" class="nextBtnDiv">
 						</div>
 					</form>
